@@ -437,7 +437,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: rgba(244, 244, 253, 1);
-  padding: 40px 32px 164px;
+  padding: 40px 32px;
   position: absolute;
   top: 0;
   left: 0;
@@ -445,7 +445,7 @@ img {
   height: 100%;
   background-color: rgba(77, 90, 229, 1);
   transform: translateY(100%);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list:hover .overlay-text {
