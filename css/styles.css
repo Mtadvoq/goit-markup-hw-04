@@ -185,6 +185,8 @@ img {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
+  display: flex;
+  justify-content: center;
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
